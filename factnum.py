@@ -1,10 +1,9 @@
-
-num = 7
+num = 12
 factorial = 1
 if num < 0:
    print("Sorry, factorial does not exist for negative numbers")
 if num > 20:   
-   print("Sorry, you reached the limit")
+   print("Sorry, you reached the limit,please enter a valid no ")
 elif num == 0:
    print("The factorial of 0 is 1")
 else:
